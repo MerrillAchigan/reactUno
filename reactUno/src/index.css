@@ -33,3 +33,22 @@
   padding: 10px;
   border: 1px solid rgb(156, 156, 156);
 }
+
+.welcome{
+  font-size: 2em;
+  background-color: greenyellow;
+  padding: 10px;
+  margin: 0;
+  color: burlywood;
+  border-radius: 5px;
+}
+
+.log{
+  font-size: 2em;
+  background-color: rebeccapurple;
+  padding: 10px;
+  margin: 0;
+  color: white;
+  border-radius: 5px;
+}
+
