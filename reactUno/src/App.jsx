@@ -4,6 +4,8 @@ import Card from "./Card.jsx";
 import Button from "./Button";
 import Footer from "./Footer.jsx";
 import Student from "./Student";
+import ProfilePicture from "./PRofilePicture.jsx";
+import List from "./List.jsx";
 import UserGreeting from "./UserGreetings.jsx";
 
 function App() {
@@ -23,7 +25,7 @@ function App() {
       <Student name='Sandy' age={12} isStudent={true}></Student>
       <Student name='Pattrick' age={2} isStudent={false}></Student>
       <Student name='Larry'></Student>
-
+      <List></List>
       <UserGreeting isLoggedIn={false} username='Juicee'></UserGreeting>
       <Footer></Footer>
     </>

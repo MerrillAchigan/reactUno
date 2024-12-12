@@ -11,11 +11,13 @@ function Button(){
             borderRadius: '5px',
           
     }
+
+    const handleClick = (e) => e.target.textContent = 'OUCH🥹';
     
     return(
         
     <>
-    <button style={styles}>Click me</button>
+    <button style={styles} onClick={(e) => handleClick(e)}>Click me</button>
     </>
     );
 }
